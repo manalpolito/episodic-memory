@@ -15,7 +15,6 @@ import pandas as pd
 from . import average_to_fixed_length
 from core.eval import iou
 from core.config import config
-from torchtext.vocab import Vocab
 
 from transformers import BertTokenizer, BertModel
 
